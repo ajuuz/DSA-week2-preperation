@@ -1,3 +1,10 @@
+//4. Merge Sort
+
+// Its an Sorting method in which . a whole array is divided into subarrays. and it repeats until it reaches to arrays with length 1;
+// by checking the first element of the both corresponding left and right arrays . the smallest one will be shifted and pushed to a new sorted array
+// repeating the algorithm result a whole sorted array
+
+
 
 const MergeSort = (arr)=>{
     if(arr.length<2) return arr;
