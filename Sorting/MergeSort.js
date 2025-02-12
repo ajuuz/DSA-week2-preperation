@@ -35,3 +35,4 @@ const Merge=(leftArr,rightArr)=>{
 console.log(MergeSort([9,8,7,6,5,4,3,2]))
 
 
+//O(nlogn) - time complexity
