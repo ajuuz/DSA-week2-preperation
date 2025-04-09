@@ -26,7 +26,11 @@ class QueueUsingStack{
     }
 
     display(){
-        console.log([...this.stack2.reverse(),...this.stack1])
+        let output=[]
+        for(let i=this.stack2.length-1;i>=0;i--){
+            output.push(this.stack2[i])
+        }
+        console.log([...this.stack1,...output])
     }
 }
 
